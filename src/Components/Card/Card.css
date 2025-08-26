@@ -1,0 +1,38 @@
+.card{
+    border: 1px solid hsl(0, 0%, 80%) ;
+    box-shadow: 5px 5px 5px  hsl(0, 0%, 0%, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    max-width: 250px;
+    margin: 10px;
+}
+
+.card .card-img{
+    height: 150px;
+    width: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card .card-title{
+    margin: 0;
+    font-family: arial, sans-serif;
+    color: hsl(0, 0%, 0%);
+}
+
+.card .card-description{
+    font-family: arial, sans-serif;
+    color: hsl(0, 0%, 30%);
+}
+
+.button{
+    color: white;
+    background-color: hsl(282, 100%, 50%);
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
