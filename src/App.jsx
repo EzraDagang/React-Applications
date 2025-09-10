@@ -19,20 +19,23 @@ import ToDoList from "./Components/ToDoList/ToDoList.jsx";
 import UseEffectComponent from "./Components/UseEffectComponent/UseEffectComponent.jsx";
 import DigitalClock from "./Components/DigitalClock/DigitalClock.jsx";
 import ComponentA from "./Components/UseContextComponent/ComponentA.jsx";
-
+import UseRefComponent from "./Components/UseRefComponent/UseRefComponent.jsx";
 
 function App() {
   return(
     <>
-      <ComponentA/>      
+      <UseRefComponent/>
     </>
   )
 }
 
 export default App;
 
+{/* <ColourPicker/> */}
 
+{/* <DigitalClock/> */}
 
+{/* <ComponentA/>      */}
 
 {/* <ToDoList/> */}
 

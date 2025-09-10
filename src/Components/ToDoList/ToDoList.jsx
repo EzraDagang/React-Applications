@@ -1,4 +1,4 @@
-import React, { startTransition, useState } from 'react';
+import React, { startTransition, useState, useEffect } from 'react';
 import downArrow from "./downArrow.png";
 import upArrow from "./upArrow.png";
 import styles from "./ToDoList.module.css";
@@ -7,6 +7,10 @@ function ToDoList() {
 
     const [tasks, setTasks] = useState([]);
     const [newTask, setNewTask] = useState("");
+
+    useEffect(() => {
+        console.log("Component Rerendered");
+    })
 
     const HandleAddNewTask = () => {
         if (!newTask.trim())
